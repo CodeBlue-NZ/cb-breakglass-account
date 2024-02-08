@@ -44,10 +44,12 @@ resource "azurerm_sentinel_alert_rule_scheduled" "RP-SEN-ALERT" {
     | where OperationName == "Sign-in activity"
     | project TimeGenerated, UserPrincipalName, ClientAppUsed, LocationDetails, IPAddress, OperationName, ResultType, ResultSignature
   EOF
-  query_frequency            = "PT5M"        # Frequency of the query
-  query_period               = "PT5H"        # Period of the query
+  query_frequency            = "PT1H"        # Frequency of the query
+  query_period               = "PT1H"        # Period of the query
   trigger_operator           = "GreaterThan" # Operator of the trigger
   trigger_threshold          = 0             # Threshold of the trigger
+
+
 }
 
 # Create a monitor action group
