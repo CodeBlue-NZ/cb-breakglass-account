@@ -32,3 +32,5 @@ Please replace the placeholders in the configuration with your actual values bef
 ## Note
 
 This is a basic configuration and does not include all possible options. Depending on your use case, you may need to add more resources or modify the existing ones. There are some manual steps needed as well, please refer to the ConfigureDiagnoztics.md file for the steps and further info. 
+
+It may take a couple of hours for the telemetry to update and the logs to appear. 
