@@ -18,6 +18,11 @@ This Terraform configuration sets up an Azure Sentinel and Log Analytics Workspa
 
 7. **Sentinel Data Connector for Azure Active Directory**: This creates a Sentinel data connector for Azure Active Directory named "RP-SEN-AD-CONNECTOR". The connector is associated with the Log Analytics workspace and a specific tenant ID.
 
+
+## Manual Steps in the Azure Portal
+
+Please refer to the [diagnostics.md](https://github.com/CodeBlue-NZ/cb-breakglass-account/blob/master/ConfigureDiagnostics.md) file and the [playbook.md](https://github.com/CodeBlue-NZ/cb-breakglass-account/blob/master/playbook.md) file which need to be created manually as terraform doesnt support them yet. 
+
 ## Usage
 
 To use this configuration, you need to have Terraform installed. You can then initialize Terraform in the directory containing this configuration using `terraform init`. After initialization, you can create the resources using `terraform apply`.
