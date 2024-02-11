@@ -39,4 +39,7 @@ Save changes.
 7. Now we need to go to the Sentinel Worksspace that was created by Terraform and go to Analytics, Clik on the Active rules, edit it ![image](https://github.com/CodeBlue-NZ/cb-breakglass-account/assets/48658717/0e78c576-39ba-4db7-bd92-ee117c61d326), go to the automated response tab, under automation rules, click on add new and give the automation rule a name, with a trigger set to when an incident is created. Set the action to run playbook and from the drop down select the incident play book that we created above. Set the status to enabled, and hit apply. ![image](https://github.com/CodeBlue-NZ/cb-breakglass-account/assets/48658717/82af6c81-9a4b-4d9c-a267-f9375d76f349)  Save changes, review and create on the analytics rule. 
 8. Test/Generate Sample Alerts. -- Try and login from an incognito browser on a different machine(away from the customers network) with the breakglass account. Login to the Azure portal/Office 365 portal, navigate to a few groups, search for a few user accounts. Wait for the alerts to come through. Note: Sometimes this might take about 90-120 mins.
 
+### Example of a sample alert that I sent to myself. 
+
+![image](https://github.com/CodeBlue-NZ/cb-breakglass-account/assets/48658717/c9ef500d-5600-4816-8a71-c1d30d155ead)
 
