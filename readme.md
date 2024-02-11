@@ -21,7 +21,7 @@ This Terraform configuration sets up an Azure Sentinel and Log Analytics Workspa
 
 ## Manual Steps in the Azure Portal
 
-Please refer to the [diagnostics.md](https://github.com/CodeBlue-NZ/cb-breakglass-account/blob/master/ConfigureDiagnostics.md) file and the [playbook.md](https://github.com/CodeBlue-NZ/cb-breakglass-account/blob/master/playbook.md) file which need to be created manually as terraform doesnt support them yet. 
+Please refer to the [diagnostics.md](https://github.com/CodeBlue-NZ/cb-breakglass-account/blob/master/ConfigureDiagnostics.md) file and the [playbook.md](https://github.com/CodeBlue-NZ/cb-breakglass-account/blob/master/playbook.md) file which need to be created manually as terraform doesnt support them yet. Please create this after you run the terraform script, so that you can reference some of the names as answers to the resources you create. 
 
 ## Usage
 
