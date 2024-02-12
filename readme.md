@@ -1,6 +1,6 @@
 # Terraform Configuration for Azure Sentinel and Log Analytics Workspace
 
-This Terraform configuration sets up an Azure Sentinel and Log Analytics Workspace.
+This Terraform configuration sets up an Azure Sentinel and Log Analytics Workspace. Please refer to the [create sentinel log analytics workspace file](https://github.com/CodeBlue-NZ/cb-breakglass-account/blob/master/create-sentinel-la-workspace.tf)
 
 ## Resources Created
 
