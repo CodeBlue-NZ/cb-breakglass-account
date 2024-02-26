@@ -2,7 +2,7 @@
 
 # Terraform Configuration for Azure Sentinel and Log Analytics Workspace
 
-This Terraform configuration sets up an Azure Sentinel and Log Analytics Workspace. Please refer to the [create sentinel log analytics workspace file](https://github.com/CodeBlue-NZ/cb-breakglass-account/blob/master/create-sentinel-la-workspace.tf)
+This Terraform configuration sets up an Azure Sentinel and Log Analytics Workspace. Please refer to the [create sentinel log analytics workspace file](https://github.com/CodeBlue-NZ/cb-breakglass-account/blob/master/create-sentinel-la-workspace.tf) This file contains the configuration for the entire set up of the resources using terraform. 
 
 ## Resources Created
 
@@ -29,7 +29,7 @@ Please refer to the [diagnostics.md](https://github.com/CodeBlue-NZ/cb-breakglas
 
 To use this configuration, you need to have Terraform installed. You can then initialize Terraform in the directory containing this configuration using `terraform init`. After initialization, you can create the resources using `terraform apply`.
 
-Please replace the placeholders(Resource group name, log analytics workspace name etc) in the configuration with your actual values before running the commands.
+Please replace the placeholders(Resource group name, log analytics workspace name etc) in the configuration(create-sentinel-la-workspace.tf) with your actual values before running the commands.
 
 ## Requirements
 
